@@ -1,0 +1,189 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    padding: 01%;
+}
+
+#title{
+
+    text-align: center;
+    color: blue;
+    font-size: 35px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 03%;
+}
+
+#myName{
+    
+    font-size: 28px;
+
+}
+
+.mainScreen{
+    border: 1px solid grey ;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 20px;
+    width: 900px;
+}
+.left{
+    width: 30%;
+    border-right: 1px solid grey;
+    padding: 20px;
+    background-color: lightskyblue;
+    border-radius: 20px 0px 0px 20px;
+}
+.myDeatailBox{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-right: 20%;
+    
+}
+.myDeatailBox div{
+    display: flex;
+    align-items: center;
+
+}
+ .img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.profile{
+    margin-bottom: 10%;
+    /* padding: 0px 20px 2px 0px; */
+    background-color: blue;
+    width: 400px;
+    margin-right: 100%;
+
+}
+.myInfo{
+    font-size: 18px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+#logout{
+    color: whitesmoke;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.right{
+    width: 70%;
+    position: relative;
+}
+#users{
+   
+    
+    height: 400px;
+    overflow: auto;
+}
+#users .items{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    padding: 5px 20px 5px 10px;
+    border-top-right-radius: 20px;
+}
+.head .img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.head .img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.head .name{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.head #close{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.bottom{
+    width: 100%;
+    background-color: white;
+    
+}
+#messages{
+    
+    height: 400px;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.logout button
+{
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: blue;
+}
+.bottom input{
+    
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    width: 90%;
+    border: none;
+    z-index: 1;
+    outline: none;
+    margin: 10px;
+    border-bottom: 1px solid blue;
+    padding: 10px;
+}
+#leftMess{
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(111, 197, 251);
+    color: white;
+    clear: both;
+    border-radius: 0px 20px 20px 0px;
+}
+
+#rightMess{
+    clear: both;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(48, 48, 255);
+    color: white;
+    border-radius: 20px 0px 0px 20px
+}
+
+#selectedName{
+
+    margin-right: 81%;
+    font-size: 22px;
+}
